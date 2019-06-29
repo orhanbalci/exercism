@@ -1,5 +1,5 @@
-./target
-./project
-./.bloop
-./metals
-./.exercism
+./target/
+./project/
+./.bloop/ 
+./.metals/
+./.exercism/
