@@ -1,6 +1,6 @@
 object DifferenceOfSquares {
 
-  def sumOfSquares(n: Int): Int = (1 to n).map(x => x * x).foldLeft(0)(_ + _)
+  def sumOfSquares(n: Int): Int = n * (n + 1) * (2 * n + 1) / 6 
 
   def squareOfSum(n: Int): Int = math.pow((n * (n + 1) / 2), 2).toInt
 
